@@ -113,12 +113,24 @@ print("Hello", name)
 # You need to do something similar but end up with [0,2,3,[5,6],8,10] instead. One way to work 
 # through this is to break the process down in small steps, store result of each step in a new variable
 # and use these variables to assemble the final result.
+# your code
 print("start of part 1") # set breakpoint here
 L = [0, [], [1,2,3,4], [[5],[6,7]], [8,9,10]]
-print(L)
-# your code
+LX = [L[0], L[2][1], L[2][2], [L[3][0][0], L[3][1][0]], L[-1][0], L[-1][2]]
+print("The list is", LX)
+
+L1 = [0,1,2,3,4,5,6,7,8,9,10]
+tmp1 = L1[0]
+tmp2 = L1[2]
+tmp3 = L1[3]
+tmp4 = [L1[5], L1[6]]
+tmp5 = L1[-3]
+tmp6 = L1[-1]
+L2 = [tmp1, tmp2, tmp3, tmp4, tmp5, tmp6]
+print("The alternative list is", L2)
 
 
+  
 print("end of 1") # set breakpoint here 
 '''
 
