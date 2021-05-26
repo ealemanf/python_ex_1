@@ -26,7 +26,16 @@
 # Task: create a variable with your name and print out Hello <name>
 print("start of part 0") # set breakpoint here
 # your code here
+# Option 1: Creating my name as a variable. 
+name = "ezequiel"
+print("hello", name)
 
+print("end of 0") # set breakpoint here 
+
+# Option 2: Get Python to ask for my name and then print it. 
+print("start of part 0") # set breakpoint here
+name = input("Enter your name: ")
+print("Hello", name + "!")
 
 print("end of 0") # set breakpoint here 
 '''
