@@ -179,11 +179,25 @@ print(newL) # [0, 2, 3, [5, 6], 8, 10]
 #  Created by Guido van Rossum and first released in 1991, Python ...
 #  Its language constructs and object-oriented approach aim to help programmers ...
 print("start of part 2") # set breakpoint here
+#Option 1. Split the string using the split() function
 s = "Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects."
-# your code here
 
+sentences = s.split(".")
+print(sentences)
+print("This passage has", len(sentences), "sentences")
+for elements in sentences:
+    print(elements)
+
+#The instructions say there are four sentences. And the len() function counts four. But when I look at the string there are only three. 
+
+#Option 2. Use NLTK tokens
+from nltk.tokenize import sent_tokenize, word_tokenize
+s = "Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects."
+sent_tokenize(s)
+print(sent_tokenize(s))
+print("This package has", len(sent_tokenize(s)), "sentences")
 print("end of 2") # set breakpoint here 
-'''
+#I used a natural language processing tool, NLTK, to manage the sentences. This tool does identify the three sentences correctly. 
 
 
 
@@ -207,15 +221,6 @@ print("end of 2") # set breakpoint here
 
 
 
-
-
-
-s = "Python is an interpreted, high-level, general-purpose programming language."
-sentence_list = s.split('.')
-print("there are", len(sentence_list), "sentences:")
-for e in sentence_list:
-    print(e)
-'''
 
 
 # part 3
