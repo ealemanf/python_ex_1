@@ -242,6 +242,7 @@ wordbyword = s.split()
 
 
 
+
 print("end of 3") # set breakpoint here 
 '''
 
@@ -317,6 +318,13 @@ print("start of part 4") # set breakpoint here
 s = "A very long description" # a long string
 filler = "..."
 # your code here
+
+for x in range(5,15):
+    if x * 2 + len(filler) > len(s): #this will allow me to avoid printing abbreviation that are longer than the sentence.
+        print(x, s)
+    else:
+        abbreviation = s[0:x] + filler + s[-x:]
+        print(x, abbreviation) #the print works but I can't find a way to create the general function. 
 
 
 print("end of 4") # set breakpoint here 
