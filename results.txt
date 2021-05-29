@@ -1,0 +1,97 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Prueba la nueva tecnología PowerShell multiplataforma https://aka.ms/pscore6
+PS C:\Users\UTEC\Desktop\hci584\lecture2\python_ex1_ezequiel> conda activate base
+conda : El término 'conda' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe   
+que dicha ruta es correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ conda activate base
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (conda:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Users\UTEC\Desktop\hci584\lecture2\python_ex1_ezequiel>  & 'C:\Users\UTEC\anaconda3\python.exe' 'c:\Users\UTEC\.vscode\extensions\ms-python.python-2021.5.842923320\pythonFiles\lib\python\debugpy\launcher' '58750' '--' 'c:\Users\UTEC\Desktop\hci584\lecture2\python_ex1_ezequiel\refresher_ex_1.py'
+start of part 0
+hello ezequiel
+end of 0
+start of part 0
+Enter your name: Ezequiel
+Hello Ezequiel!
+end of 0
+start of part 1
+The list is [0, 2, 3, [5, 6], 8, 10]
+The alternative list is [0, 2, 3, [5, 6], 8, 10]
+end of 1
+start of part 2
+['Python is an interpreted, high-level, general-purpose programming language', " Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace", ' Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects', '']
+This passage has 3 sentences
+C:\Users\UTEC\anaconda3\lib\site-packages\numpy\__init__.py:143: UserWarning: mkl-service package failed to import, therefore Intel(R) MKL initialization ensuring its correct out-of-the box operation under condition when Gnu OpenMP had already been loaded by Python process is not assured. Please install mkl-service package, see http://github.com/IntelPython/mkl-service
+  from . import _distributor_init
+['Python is an interpreted, high-level, general-purpose programming language.', "Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace.", 'Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.']
+This package has 3 sentences
+end of 2
+start of part 3
+['PYTHON', 'IS', 'AN', 'INTERPRETED', 'HIGH-LEVEL', 'GENERAL-PURPOSE', 'PROGRAMMING', 'LANGUAGE', 'CREATED', 'BY', 'GUIDO', 'VAN', 'ROSSUM', 'AND', 'FIRST', 'RELEASED', 'IN', '1991', "PYTHON'S", 'DESIGN', 'PHILOSOPHY', 'EMPHASIZES', 'CODE', 'READABILITY', 'WITH', 'ITS', 'NOTABLE', 'USE', 'OF', 'SIGNIFICANT', 'WHITESPACE', 'ITS', 'LANGUAGE', 'CONSTRUCTS', 'AND', 'OBJECT-ORIENTED', 'APPROACH', 'AIM', 'TO', 'HELP', 'PROGRAMMERS', 'WRITE', 'CLEAR', 'LOGICAL', 'CODE', 'FOR', 'SMALL', 'AND', 'LARGE-SCALE', 'PROJECTS']
+python
+IS
+an
+INTERPRETED
+high-level
+GENERAL-PURPOSE
+programming
+LANGUAGE
+created
+BY
+guido
+VAN
+rossum
+AND
+first
+RELEASED
+in
+1991
+python's
+DESIGN
+philosophy
+EMPHASIZES
+code
+READABILITY
+with
+ITS
+notable
+USE
+of
+SIGNIFICANT
+whitespace
+ITS
+language
+CONSTRUCTS
+and
+OBJECT-ORIENTED
+approach
+AIM
+to
+HELP
+programmers
+WRITE
+clear
+LOGICAL
+code
+FOR
+small
+AND
+large-scale
+PROJECTS
+end of 3
+start of part 4
+6 A very...iption
+7 A very ...ription
+8 A very l...cription
+9 A very lo...scription
+10 A very lon...escription
+11 A very long description
+12 A very long description
+13 A very long description
+14 A very long description
+end of 4
