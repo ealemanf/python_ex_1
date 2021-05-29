@@ -244,6 +244,12 @@ s_nopunctuation = re.sub("[.\,]", "", s) #the re.sub function is useful to subst
 newlist = s_nopunctuation.split()
 print(newlist) #separate words and eliminate punctuation.
 
+lowerc = True
+for elem in newlist:
+    if lowerc == True:
+        print(elem.lower())
+    else:
+        print(elem)
 
 
 
