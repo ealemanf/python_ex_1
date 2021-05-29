@@ -248,14 +248,10 @@ lowerc = True
 for elem in newlist:
     if lowerc == True:
         print(elem.lower())
+        lowerc = False
     else:
         print(elem)
-
-
-
-
-
-
+        lowerc = True
 
 
 
