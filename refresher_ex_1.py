@@ -195,7 +195,7 @@ sent_tokenize(s)
 print(sent_tokenize(s))
 print("This package has", len(sent_tokenize(s)), "sentences")
 print("end of 2") # set breakpoint here 
-#I used a natural language processing tool, NLTK, to manage the sentences. This tool does identify the three sentences correctly. 
+#I used a natural language processing toolkit, NLTK, to manage the sentences. This tool does identify the three sentences correctly. 
 
 
 
@@ -238,7 +238,11 @@ print("end of 2") # set breakpoint here
 print("start of part 3") # set breakpoint here
 # your code here
 s = "Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects."
-wordbyword = s.split()
+import re
+s_nopunctuation = re.sub("[.\,]", "", s)
+newlist = s_nopunctuation.split()
+print(newlist) #First try part 3. Got to separate words and eliminate punctuation. 
+
 
 
 
