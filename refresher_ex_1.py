@@ -236,12 +236,18 @@ print("end of 2") # set breakpoint here
 # programming
 # LANGUAGE
 print("start of part 3") # set breakpoint here
-# your code here
+# Stezep 1. Divide the words and eliminate punctuation. 
 s = "Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects."
+s = s.upper() #added this line to make all words uppercase to help me with the alternate lowercase.
 import re
-s_nopunctuation = re.sub("[.\,]", "", s)
+s_nopunctuation = re.sub("[.\,]", "", s) #the re.sub function is useful to substitute or eliminate any unnecessary items in a string. 
 newlist = s_nopunctuation.split()
-print(newlist) #First try part 3. Got to separate words and eliminate punctuation. 
+print(newlist) #separate words and eliminate punctuation.
+
+
+
+
+
 
 
 
